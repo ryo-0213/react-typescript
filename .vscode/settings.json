@@ -1,6 +1,11 @@
 {
-  "cSpell.words": [
-    "browserslist",
-    "typesync"
-  ]
+  "cSpell.words": ["browserslist", "typesync"],
+
+  "editor.formatOnSave": true, // <-- prettierで整形
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true // <-- eslintでリント
+  },
+  // デフォルトフォーマッタをprettierに
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false
 }
